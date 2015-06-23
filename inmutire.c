@@ -23,13 +23,13 @@ int main()
     int **a,**b,**d;
     int c,i,j,count=1,putere,k;
     scanf("%d",&count);
-    a=(int **)malloc(count* sizeof(int *));
-    b=(int **)malloc(count,sizeof(int *));
-    d=(int **)malloc(count *sizeof(int *));
+    a=(int **)malloc(count * sizeof(int *));
+    b=(int **)malloc(count * sizeof(int *));
+    d=(int **)malloc(count * sizeof(int *));
     for(i=0;i<count;i++)
     {
         a[i]=(int *)malloc(count*sizeof(int));
-        b[i]=(int *)malloc(count,sizeof(int));
+        b[i]=(int *)malloc(count*sizeof(int));
         d[i]=(int *)malloc(count*sizeof(int));
     }
     for(i=0;i<count;i++)
